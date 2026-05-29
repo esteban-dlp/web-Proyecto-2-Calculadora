@@ -1,0 +1,28 @@
+.wrapper {
+  background: #12121a;
+  border-radius: 12px;
+  padding: 16px 20px;
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 16px;
+}
+
+.value {
+  font-size: 2.4rem;
+  font-weight: 300;
+  color: #e8e8f0;
+  letter-spacing: 0.02em;
+  font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+  word-break: break-all;
+  text-align: right;
+}
+
+.error {
+  color: #ff6b6b;
+  font-weight: 500;
+  font-size: 1.8rem;
+}

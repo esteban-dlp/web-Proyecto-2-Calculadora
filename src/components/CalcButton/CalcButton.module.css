@@ -1,0 +1,65 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.12s ease, transform 0.08s ease, box-shadow 0.12s ease;
+  padding: 0;
+  aspect-ratio: 1;
+  width: 100%;
+  user-select: none;
+  outline: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+}
+
+.button:focus-visible {
+  outline: 2px solid #7c6fff;
+  outline-offset: 2px;
+}
+
+.button:active {
+  transform: scale(0.93);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+}
+
+.digit {
+  background: #2d2d3a;
+  color: #e8e8f0;
+}
+
+.digit:hover {
+  background: #3a3a4d;
+}
+
+.operator {
+  background: #4a3f6b;
+  color: #c8b8ff;
+}
+
+.operator:hover {
+  background: #5c4f85;
+}
+
+.equals {
+  background: linear-gradient(135deg, #7c6fff, #5c4fff);
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.equals:hover {
+  background: linear-gradient(135deg, #8d80ff, #6d60ff);
+}
+
+.function {
+  background: #3a3a4d;
+  color: #9090b0;
+  font-size: 1rem;
+}
+
+.function:hover {
+  background: #464660;
+}
