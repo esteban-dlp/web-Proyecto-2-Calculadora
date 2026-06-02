@@ -1,7 +1,8 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
+  grid-auto-rows: clamp(52px, 13vw, 66px);
+  gap: clamp(8px, 2vw, 12px);
 }
 
 .grid > div {
